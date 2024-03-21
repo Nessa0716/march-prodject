@@ -1,0 +1,19 @@
+body {
+    background-color: #59D5E0;
+}
+/* title text align wont load */
+#title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#vanessa {
+    background-color: #fd4f89;
+    width: 50%;
+    height: 600px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
