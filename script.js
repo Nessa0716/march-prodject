@@ -57,3 +57,12 @@ document.getElementById('addNameBtn').addEventListener('click', addName)
 
 // add onclick to add name btn
 document.getElementById('pickRandomBtn').addEventListener('click', pickRandomName)
+
+
+function clearAllNames() {
+  nameArray.length = 0; // Clear the nameArray
+  displayNames(); // Update the displayed list of names
+  document.getElementById('randomName').textContent = ''; // Clear the random name display
+}
+
+document.getElementById('clearAllBtn').addEventListener('click', clearAllNames);

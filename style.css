@@ -1,3 +1,24 @@
 .row {
-  background-color: aquamarine;
+  background-color: #EE4266; 
+}
+#pickRandomBtn {
+  background-color: #ffbecc; 
+
+}
+
+#addNameBtn {
+  background-color: #ffbecc; 
+
+}
+#clearAllBtn {
+  background-color: #ffbecc; 
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
 }
